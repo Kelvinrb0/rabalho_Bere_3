@@ -7,12 +7,6 @@ int main() {
     int forma_do_cartao;
     FILE *cfPtr;
 
-    printf("Valor total da compra: R$ ");
-    scanf("%f", &valor_compra);
-    
-    
-    valor_pendente = valor_compra;
-
     
     while (valor_pendente > 0) {
         printf("Falta pagar: R$ %.2f \n", valor_pendente);
